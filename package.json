@@ -1,0 +1,37 @@
+{
+  "name": "donatebot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "node_modules/.bin/eslint --ext js .",
+    "lint:fix": "node_modules/.bin/eslint --fix --ext js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyoSU/fStikBot.git"
+  },
+  "author": "LyoSU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LyoSU/fStikBot/issues"
+  },
+  "homepage": "https://github.com/LyoSU/fStikBot#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^7.0.0",
+    "got": "^9.6.0",
+    "mongoose": "^5.5.14",
+    "querystring": "^0.2.0",
+    "telegraf": "^3.27.1",
+    "telegraf-i18n": "^6.5.0",
+    "telegraf-ratelimit": "^2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@atomix/eslint-config": "^6.4.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3"
+  }
+}
