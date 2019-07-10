@@ -36,7 +36,7 @@ module.exports = async (ctx) => {
       action: 'pay',
       amount: amount / 100,
       currency,
-      description: 'test',
+      description: ctx.i18n.t('callback.donate.description'),
       order_id: orderId,
       result_url: `https://t.me/${ctx.options.username}?start=liqpay_${orderId}`,
       version: 3,

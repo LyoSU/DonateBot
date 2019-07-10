@@ -12,7 +12,7 @@ module.exports = async (ctx) => {
     action: 'paydonate',
     amount: '50',
     currency: 'RUB',
-    description: 'test',
+    description: ctx.i18n.t('callback.donate.description'),
     order_id: orderId,
     result_url: `https://t.me/${ctx.options.username}?start=${orderId}`,
     version: 3,
