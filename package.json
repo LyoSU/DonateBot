@@ -22,7 +22,7 @@
     "crypto": "^1.0.1",
     "dotenv": "^7.0.0",
     "got": "^9.6.0",
-    "mongoose": "^5.5.14",
+    "mongoose": "^5.7.5",
     "querystring": "^0.2.0",
     "telegraf": "^3.27.1",
     "telegraf-i18n": "^6.5.0",
