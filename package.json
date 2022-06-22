@@ -21,7 +21,7 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "dotenv": "^7.0.0",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "mongoose": "^5.5.14",
     "querystring": "^0.2.0",
     "telegraf": "^3.27.1",
